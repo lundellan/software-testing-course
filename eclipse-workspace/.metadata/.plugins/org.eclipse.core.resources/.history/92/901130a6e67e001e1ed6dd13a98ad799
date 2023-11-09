@@ -1,0 +1,28 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import labb1.NextDate;
+
+public class TestDate {
+	
+	NextDate testDate = new NextDate(0, 0, 0);
+
+	@Test
+	public void test() {
+		assertEquals("invalid Input Date", testDate.run(-1, 1, 2023));
+	}
+	
+	@Test
+	public void test1() {
+		assertEquals("31/12/2020", testDate.run(30, 12, 2020));
+	}
+
+	@Test
+	public void test1() {
+		assertEquals("1/1/2021", testDate.run(31, 12, 2020));
+	}
+
+}

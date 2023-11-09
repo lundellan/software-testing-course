@@ -1,0 +1,47 @@
+package tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import labb1.NextDate;
+
+public class TestDate {
+
+	@Test
+	public void test() {
+		NextDate testDate = new NextDate(-1, 1, 2023);
+		assertEquals("invalid Input Date", testDate.run(-1, 1, 2023));
+	}
+	
+	@Test
+	public void test1() {
+		NextDate testDate = new NextDate(12, 30, 2020);
+		assertEquals("12/31/2020", testDate.run(12, 30, 2020));
+	}
+
+	@Test
+	public void test2() {
+		NextDate testDate = new NextDate(12, 31, 2020);
+		assertEquals("1/1/2021", testDate.run(12, 31, 2020));
+	}
+	
+	@Test
+	public void test3() {
+		NextDate testDate = new NextDate(2, 28, 2020);
+		assertEquals("2/29/2020", testDate.run(2, 29, 2020));
+	}
+	
+	@Test
+	public void test5() {
+		NextDate testDate = new NextDate(2, 28, 2016);
+		assertEquals("2/29/2016", testDate.run(2, 29, 2016));
+	}
+	
+	@Test
+	public void test4() {
+		NextDate testDate = new NextDate(2, 28, 2019);
+		assertEquals("3/1/2019", testDate.run(2, 28, 2019));
+	}
+
+}

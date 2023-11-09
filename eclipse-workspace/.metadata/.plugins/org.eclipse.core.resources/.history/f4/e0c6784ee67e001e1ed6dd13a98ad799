@@ -1,0 +1,16 @@
+package labb1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestDate {
+	
+	NextDate testDate = new NextDate(0, 0, 0);
+
+	@Test
+	public void test() {
+		assertEquals("invalid Input Date", testDate.run(-1, 1, 2023));
+	}
+
+}
