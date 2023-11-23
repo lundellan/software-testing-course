@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.8.1" sequence="3" timestamp="1700736363100" analysisTimestamp="1700736356187" release="">
+  <Project projectName="DebugReqSimili">
+    <Jar>C:\Users\sepeh\Desktop\Software Testing ETSN20\Lab3\workspace\workspace\DebugReqSimili\bin\reqsimile</Jar>
+    <AuxClasspathEntry>C:\Users\sepeh\Desktop\Software Testing ETSN20\Lab3\workspace\workspace\DebugReqSimili\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\sepeh\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\sepeh\Desktop\Software Testing ETSN20\Lab3\workspace\workspace\DebugReqSimili\src</SrcDir>
+  </Project>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.APPCONSTANTS">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Class>
+    <Field classname="reqsimile.APPCONSTANTS" name="PREF_DB_FIELD_LINK_KEY" signature="[Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.APPCONSTANTS" start="69" end="69" startBytecode="31" endBytecode="31" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.APPCONSTANTS">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Class>
+    <Field classname="reqsimile.APPCONSTANTS" name="PREF_DEF_DB_FIELD_LINKS_KEY" signature="[Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.APPCONSTANTS" start="88" end="88" startBytecode="99" endBytecode="99" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.APPCONSTANTS">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Class>
+    <Field classname="reqsimile.APPCONSTANTS" name="PREF_DEF_DB_NAME" signature="[Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.APPCONSTANTS" start="75" end="75" startBytecode="48" endBytecode="48" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.APPCONSTANTS">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Class>
+    <Field classname="reqsimile.APPCONSTANTS" name="PREF_DEF_DB_PREPROCESS_TABLE" signature="[Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.APPCONSTANTS" start="86" end="86" startBytecode="65" endBytecode="65" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.APPCONSTANTS">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Class>
+    <Field classname="reqsimile.APPCONSTANTS" name="PREF_DEF_DB_TOKENWEIGHTS_TABLE" signature="[Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.APPCONSTANTS" start="87" end="87" startBytecode="82" endBytecode="82" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+  </BugInstance>
+  <BugInstance type="MS_MUTABLE_ARRAY" priority="1" rank="16" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.APPCONSTANTS">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Class>
+    <Field classname="reqsimile.APPCONSTANTS" name="PREF_SECTION_DB" signature="[Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="reqsimile.APPCONSTANTS" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.APPCONSTANTS" start="50" end="50" startBytecode="14" endBytecode="14" sourcefile="APPCONSTANTS.java" sourcepath="reqsimile/APPCONSTANTS.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="reqsimile.Application">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Class>
+    <Method classname="reqsimile.Application" name="openProject" signature="()V" isStatic="true">
+      <SourceLine classname="reqsimile.Application" start="447" end="487" startBytecode="0" endBytecode="502" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="75" end="76" startBytecode="0" endBytecode="68" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.Application" start="470" end="470" startBytecode="109" endBytecode="109" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    <SourceLine classname="reqsimile.Application" start="470" end="470" startBytecode="109" endBytecode="109" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_STATIC_REP2" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.Application">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Class>
+    <Method classname="reqsimile.Application" name="setLinksConnection" signature="(Ljava/sql/Connection;)V" isStatic="true">
+      <SourceLine classname="reqsimile.Application" start="391" end="392" startBytecode="0" endBytecode="50" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Method>
+    <Field classname="reqsimile.Application" name="linkDataConn" signature="Ljava/sql/Connection;" isStatic="true">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Field>
+    <LocalVariable name="dbConn" register="0" pc="1" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.Application" start="391" end="391" startBytecode="1" endBytecode="1" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    <SourceLine classname="reqsimile.Application" start="391" end="391" startBytecode="1" endBytecode="1" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+  </BugInstance>
+  <BugInstance type="MS_EXPOSE_REP" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.Application">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Class>
+    <Method classname="reqsimile.Application" name="getGUI" signature="()Lreqsimile/gui/GUI_Main;" isStatic="true">
+      <SourceLine classname="reqsimile.Application" start="363" end="363" startBytecode="0" endBytecode="35" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Method>
+    <Field classname="reqsimile.Application" name="gui" signature="Lreqsimile/gui/GUI_Main;" isStatic="true">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.Application" start="363" end="363" startBytecode="3" endBytecode="3" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    <SourceLine classname="reqsimile.Application" start="363" end="363" startBytecode="3" endBytecode="3" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+  </BugInstance>
+  <BugInstance type="MS_EXPOSE_REP" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.Application">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Class>
+    <Method classname="reqsimile.Application" name="getLinksConnection" signature="()Ljava/sql/Connection;" isStatic="true">
+      <SourceLine classname="reqsimile.Application" start="381" end="381" startBytecode="0" endBytecode="35" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Method>
+    <Field classname="reqsimile.Application" name="linkDataConn" signature="Ljava/sql/Connection;" isStatic="true">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.Application" start="381" end="381" startBytecode="3" endBytecode="3" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    <SourceLine classname="reqsimile.Application" start="381" end="381" startBytecode="3" endBytecode="3" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="2">
+    <Class classname="reqsimile.Application">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Class>
+    <Method classname="reqsimile.Application" name="openProject" signature="()V" isStatic="true">
+      <SourceLine classname="reqsimile.Application" start="447" end="487" startBytecode="0" endBytecode="502" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Method>
+    <Class classname="java.io.Reader" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.Reader" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="reqsimile.Application" start="470" end="470" startBytecode="109" endBytecode="109" sourcefile="Application.java" sourcepath="reqsimile/Application.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="reqsimile.Application" start="473" end="473" startBytecode="113" endBytecode="113" sourcefile="Application.java" sourcepath="reqsimile/Application.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.Application" start="474" end="474" startBytecode="123" endBytecode="123" sourcefile="Application.java" sourcepath="reqsimile/Application.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.Application" start="482" end="482" startBytecode="203" endBytecode="203" sourcefile="Application.java" sourcepath="reqsimile/Application.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.Application" start="483" end="483" startBytecode="204" endBytecode="204" sourcefile="Application.java" sourcepath="reqsimile/Application.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.Application" start="487" end="487" startBytecode="214" endBytecode="214" sourcefile="Application.java" sourcepath="reqsimile/Application.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Reader x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="RR_NOT_CHECKED" priority="2" rank="16" abbrev="RR" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.Application">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Class>
+    <Method classname="reqsimile.Application" name="openProject" signature="()V" isStatic="true">
+      <SourceLine classname="reqsimile.Application" start="447" end="487" startBytecode="0" endBytecode="502" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="read" signature="([CII)I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.Application" start="474" end="474" startBytecode="133" endBytecode="133" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    <SourceLine classname="reqsimile.Application" start="474" end="474" startBytecode="133" endBytecode="133" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="2">
+    <Class classname="reqsimile.Application">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Class>
+    <Method classname="reqsimile.Application" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.Application" start="69" end="99" startBytecode="0" endBytecode="153" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Method>
+    <Field classname="reqsimile.Application" name="gui" signature="Lreqsimile/gui/GUI_Main;" isStatic="true">
+      <SourceLine classname="reqsimile.Application" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.Application" start="75" end="75" startBytecode="17" endBytecode="17" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+    <SourceLine classname="reqsimile.Application" start="75" end="75" startBytecode="17" endBytecode="17" sourcefile="Application.java" sourcepath="reqsimile/Application.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="reqsimile.Common">
+      <SourceLine classname="reqsimile.Common" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Class>
+    <Method classname="reqsimile.Common" name="timeDiff" signature="(J)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="reqsimile.Common" start="70" end="83" startBytecode="0" endBytecode="63" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Method>
+    <LocalVariable name="days" register="12" pc="53" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.Common" start="76" end="76" startBytecode="51" endBytecode="51" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    <SourceLine classname="reqsimile.Common" start="76" end="76" startBytecode="51" endBytecode="51" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="days"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="reqsimile.Common">
+      <SourceLine classname="reqsimile.Common" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Class>
+    <Method classname="reqsimile.Common" name="timeDiff" signature="(J)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="reqsimile.Common" start="70" end="83" startBytecode="0" endBytecode="63" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Method>
+    <LocalVariable name="hs" register="10" pc="46" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.Common" start="75" end="75" startBytecode="44" endBytecode="44" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    <SourceLine classname="reqsimile.Common" start="75" end="75" startBytecode="44" endBytecode="44" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="hs"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="reqsimile.Common">
+      <SourceLine classname="reqsimile.Common" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Class>
+    <Method classname="reqsimile.Common" name="timeDiff" signature="(J)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="reqsimile.Common" start="70" end="83" startBytecode="0" endBytecode="63" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Method>
+    <LocalVariable name="millis" register="4" pc="13" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.Common" start="72" end="72" startBytecode="11" endBytecode="11" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    <SourceLine classname="reqsimile.Common" start="72" end="72" startBytecode="11" endBytecode="11" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="millis"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.Common">
+      <SourceLine classname="reqsimile.Common" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Class>
+    <Method classname="reqsimile.Common" name="toArrayList" signature="([I)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="reqsimile.Common" start="54" end="58" startBytecode="0" endBytecode="132" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.Common" start="56" end="56" startBytecode="21" endBytecode="21" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    <SourceLine classname="reqsimile.Common" start="56" end="56" startBytecode="21" endBytecode="21" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+  </BugInstance>
+  <BugInstance type="ICAST_INT_CAST_TO_FLOAT_PASSED_TO_ROUND" priority="2" rank="9" abbrev="ICAST" category="CORRECTNESS" first="2">
+    <Class classname="reqsimile.Common">
+      <SourceLine classname="reqsimile.Common" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Class>
+    <Method classname="reqsimile.Common" name="multiplyBlend" signature="(Ljava/awt/Color;Ljava/awt/Color;)Ljava/awt/Color;" isStatic="true">
+      <SourceLine classname="reqsimile.Common" start="105" end="105" startBytecode="0" endBytecode="154" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.Common" start="106" end="106" startBytecode="22" endBytecode="22" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+    <SourceLine classname="reqsimile.Common" start="106" end="106" startBytecode="22" endBytecode="22" sourcefile="Common.java" sourcepath="reqsimile/Common.java"/>
+  </BugInstance>
+  <BugInstance type="DCN_NULLPOINTER_EXCEPTION" priority="2" rank="17" abbrev="DCN" category="STYLE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="checkDateTimeFormat" signature="(Ljava/lang/String;)Z" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="799" end="817" startBytecode="0" endBytecode="289" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="807" end="807" startBytecode="18" endBytecode="18" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DCN_NULLPOINTER_EXCEPTION" priority="2" rank="17" abbrev="DCN" category="STYLE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="getDateProperty" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Date;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="359" end="383" startBytecode="0" endBytecode="300" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="376" end="376" startBytecode="66" endBytecode="66" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DCN_NULLPOINTER_EXCEPTION" priority="2" rank="17" abbrev="DCN" category="STYLE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="getTimestampProperty" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Date;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="410" end="436" startBytecode="0" endBytecode="338" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="429" end="429" startBytecode="83" endBytecode="83" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DCN_NULLPOINTER_EXCEPTION" priority="2" rank="17" abbrev="DCN" category="STYLE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="loadFile" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="826" end="902" startBytecode="0" endBytecode="1041" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="883" end="883" startBytecode="310" endBytecode="310" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DCN_NULLPOINTER_EXCEPTION" priority="2" rank="17" abbrev="DCN" category="STYLE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="timeToStr" signature="(Ljava/sql/Timestamp;Ljava/lang/String;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="1003" end="1023" startBytecode="0" endBytecode="365" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="1015" end="1015" startBytecode="42" endBytecode="42" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="getBooleanProperty" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="175" end="198" startBytecode="0" endBytecode="303" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="189" end="189" startBytecode="81" endBytecode="81" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="189" end="189" startBytecode="81" endBytecode="81" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="getEnvVars" signature="()Ljava/util/Properties;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="753" end="789" startBytecode="0" endBytecode="484" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="76" end="79" startBytecode="0" endBytecode="85" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="776" end="776" startBytecode="115" endBytecode="115" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="776" end="776" startBytecode="115" endBytecode="115" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="loadFile" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="826" end="902" startBytecode="0" endBytecode="1041" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader" start="60" end="61" startBytecode="0" endBytecode="68" sourcefile="FileReader.java" sourcepath="java/io/FileReader.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="835" end="835" startBytecode="23" endBytecode="23" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="835" end="835" startBytecode="23" endBytecode="23" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="save" signature="()Z" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="701" end="741" startBytecode="0" endBytecode="728" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/io/File;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter" start="96" end="97" startBytecode="0" endBytecode="68" sourcefile="FileWriter.java" sourcepath="java/io/FileWriter.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="714" end="714" startBytecode="87" endBytecode="87" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="714" end="714" startBytecode="87" endBytecode="87" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="getIntegerProperty" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Integer;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="226" end="243" startBytecode="0" endBytecode="232" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1126" end="1128" startBytecode="0" endBytecode="74" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="999" end="999" startBytecode="0" endBytecode="51" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="237" end="237" startBytecode="45" endBytecode="45" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="237" end="237" startBytecode="45" endBytecode="45" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="getLongProperty" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Long;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="270" end="287" startBytecode="0" endBytecode="232" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Long" start="1347" end="1349" startBytecode="0" endBytecode="74" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <Method classname="java.lang.Long" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Long;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Long" start="1163" end="1163" startBytecode="0" endBytecode="51" sourcefile="Long.java" sourcepath="java/lang/Long.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="281" end="281" startBytecode="45" endBytecode="45" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="281" end="281" startBytecode="45" endBytecode="45" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="NP_IMMEDIATE_DEREFERENCE_OF_READLINE" priority="2" rank="15" abbrev="NP" category="STYLE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="loadFile" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="826" end="902" startBytecode="0" endBytecode="1041" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="845" end="845" startBytecode="61" endBytecode="61" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="845" end="845" startBytecode="61" endBytecode="61" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="getEnvVars" signature="()Ljava/util/Properties;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="753" end="789" startBytecode="0" endBytecode="84" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="82" end="417" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="reqsimile.INIFile" start="776" end="776" startBytecode="103" endBytecode="103" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="776" end="776" startBytecode="103" endBytecode="103" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" rank="18" abbrev="RCN" category="STYLE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="loadFile" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="826" end="902" startBytecode="0" endBytecode="1041" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <LocalVariable name="objSec" register="6" pc="149" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="reqsimile.INIFile" start="861" end="861" startBytecode="151" endBytecode="151" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="reqsimile.INIFile" start="861" end="861" startBytecode="151" endBytecode="151" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" rank="16" abbrev="RV" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="save" signature="()Z" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="701" end="741" startBytecode="0" endBytecode="728" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <Method classname="java.io.File" name="delete" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="1066" end="1073" startBytecode="0" endBytecode="119" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile" start="713" end="713" startBytecode="78" endBytecode="78" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="713" end="713" startBytecode="78" endBytecode="78" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.INIFile">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile" name="save" signature="()Z" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" start="701" end="741" startBytecode="0" endBytecode="728" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <Field classname="reqsimile.INIFile" name="mhmapSections" signature="Ljava/util/LinkedHashMap;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.INIFile" start="720" end="720" startBytecode="133" endBytecode="133" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile" start="720" end="720" startBytecode="133" endBytecode="133" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="NS_DANGEROUS_NON_SHORT_CIRCUIT" priority="1" rank="15" abbrev="NS" category="STYLE" first="2">
+    <Class classname="reqsimile.INIFile$INISection">
+      <SourceLine classname="reqsimile.INIFile$INISection" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile$INISection" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile$INISection" start="1154" end="1186" startBytecode="0" endBytecode="510" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.INIFile$INISection" start="1173" end="1173" startBytecode="145" endBytecode="145" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile$INISection" start="1173" end="1173" startBytecode="145" endBytecode="145" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.INIFile$INISection">
+      <SourceLine classname="reqsimile.INIFile$INISection" start="1071" end="1186" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.INIFile$INISection">
+      <SourceLine classname="reqsimile.INIFile$INISection" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Class>
+    <Method classname="reqsimile.INIFile$INISection" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile$INISection" start="1154" end="1186" startBytecode="0" endBytecode="510" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Method>
+    <Field classname="reqsimile.INIFile$INISection" name="mhmapProps" signature="Ljava/util/LinkedHashMap;" isStatic="false">
+      <SourceLine classname="reqsimile.INIFile$INISection" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.INIFile$INISection" start="1171" end="1171" startBytecode="96" endBytecode="96" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+    <SourceLine classname="reqsimile.INIFile$INISection" start="1171" end="1171" startBytecode="96" endBytecode="96" sourcefile="INIFile.java" sourcepath="reqsimile/INIFile.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="reqsimile.data.DBConnections$DBConnection">
+      <SourceLine classname="reqsimile.data.DBConnections$DBConnection" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    </Class>
+    <Method classname="reqsimile.data.DBConnections$DBConnection" name="&lt;init&gt;" signature="(Lreqsimile/data/DBConnections;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="42" end="68" startBytecode="0" endBytecode="80" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    </Method>
+    <LocalVariable name="?" register="7" pc="87" role="LOCAL_VARIABLE_UNKNOWN"/>
+    <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="54" end="54" startBytecode="87" endBytecode="87" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="54" end="54" startBytecode="87" endBytecode="87" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="?"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.STORE_OF_DATABASE_VALUE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED" priority="2" rank="18" abbrev="DP" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.DBConnections$DBConnection">
+      <SourceLine classname="reqsimile.data.DBConnections$DBConnection" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    </Class>
+    <Method classname="reqsimile.data.DBConnections$DBConnection" name="&lt;init&gt;" signature="(Lreqsimile/data/DBConnections;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="42" end="68" startBytecode="0" endBytecode="472" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    </Method>
+    <Class classname="java.net.URLClassLoader">
+      <SourceLine classname="java.net.URLClassLoader" sourcefile="URLClassLoader.java" sourcepath="java/net/URLClassLoader.java"/>
+    </Class>
+    <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="57" end="57" startBytecode="92" endBytecode="92" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="57" end="57" startBytecode="92" endBytecode="92" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" rank="17" abbrev="REC" category="STYLE" first="2">
+    <Class classname="reqsimile.data.DBConnections$DBConnection">
+      <SourceLine classname="reqsimile.data.DBConnections$DBConnection" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    </Class>
+    <Method classname="reqsimile.data.DBConnections$DBConnection" name="&lt;init&gt;" signature="(Lreqsimile/data/DBConnections;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="42" end="68" startBytecode="0" endBytecode="472" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="65" end="65" startBytecode="158" endBytecode="158" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="65" end="65" startBytecode="158" endBytecode="158" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.DBConnections$DBConnection">
+      <SourceLine classname="reqsimile.data.DBConnections$DBConnection" start="19" end="130" sourcefile="DBConnections.java" sourcepath="reqsimile/data/DBConnections.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.InputFieldsTableModel">
+      <SourceLine classname="reqsimile.data.InputFieldsTableModel" sourcefile="InputFieldsTableModel.java" sourcepath="reqsimile/data/InputFieldsTableModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.InputFieldsTableModel" name="resetTable" signature="(I)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.InputFieldsTableModel" start="31" end="36" startBytecode="0" endBytecode="174" sourcefile="InputFieldsTableModel.java" sourcepath="reqsimile/data/InputFieldsTableModel.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.InputFieldsTableModel" start="35" end="35" startBytecode="30" endBytecode="30" sourcefile="InputFieldsTableModel.java" sourcepath="reqsimile/data/InputFieldsTableModel.java"/>
+    <SourceLine classname="reqsimile.data.InputFieldsTableModel" start="35" end="35" startBytecode="30" endBytecode="30" sourcefile="InputFieldsTableModel.java" sourcepath="reqsimile/data/InputFieldsTableModel.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.InputFieldsTableModel">
+      <SourceLine classname="reqsimile.data.InputFieldsTableModel" sourcefile="InputFieldsTableModel.java" sourcepath="reqsimile/data/InputFieldsTableModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.InputFieldsTableModel" name="setValueAt" signature="(Ljava/lang/Object;II)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.InputFieldsTableModel" start="119" end="135" startBytecode="0" endBytecode="316" sourcefile="InputFieldsTableModel.java" sourcepath="reqsimile/data/InputFieldsTableModel.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.InputFieldsTableModel" start="128" end="128" startBytecode="68" endBytecode="68" sourcefile="InputFieldsTableModel.java" sourcepath="reqsimile/data/InputFieldsTableModel.java"/>
+    <SourceLine classname="reqsimile.data.InputFieldsTableModel" start="128" end="128" startBytecode="68" endBytecode="68" sourcefile="InputFieldsTableModel.java" sourcepath="reqsimile/data/InputFieldsTableModel.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.PopulateRs">
+      <SourceLine classname="reqsimile.data.PopulateRs" sourcefile="PopulateRs.java" sourcepath="reqsimile/data/PopulateRs.java"/>
+    </Class>
+    <Method classname="reqsimile.data.PopulateRs" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.data.PopulateRs" start="52" end="314" startBytecode="0" endBytecode="3055" sourcefile="PopulateRs.java" sourcepath="reqsimile/data/PopulateRs.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.PopulateRs" start="254" end="254" startBytecode="1065" endBytecode="1065" sourcefile="PopulateRs.java" sourcepath="reqsimile/data/PopulateRs.java"/>
+    <SourceLine classname="reqsimile.data.PopulateRs" start="254" end="254" startBytecode="1065" endBytecode="1065" sourcefile="PopulateRs.java" sourcepath="reqsimile/data/PopulateRs.java"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.data.PopulateRs">
+      <SourceLine classname="reqsimile.data.PopulateRs" sourcefile="PopulateRs.java" sourcepath="reqsimile/data/PopulateRs.java"/>
+    </Class>
+    <Method classname="reqsimile.data.PopulateRs" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.data.PopulateRs" start="52" end="314" startBytecode="0" endBytecode="583" sourcefile="PopulateRs.java" sourcepath="reqsimile/data/PopulateRs.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/Statement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.Statement" start="1096" end="1647" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Type>
+    <SourceLine classname="reqsimile.data.PopulateRs" start="114" end="114" startBytecode="233" endBytecode="233" sourcefile="PopulateRs.java" sourcepath="reqsimile/data/PopulateRs.java"/>
+    <SourceLine classname="reqsimile.data.PopulateRs" start="114" end="114" startBytecode="233" endBytecode="233" sourcefile="PopulateRs.java" sourcepath="reqsimile/data/PopulateRs.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="2">
+    <Class classname="reqsimile.data.PreProcessRs">
+      <SourceLine classname="reqsimile.data.PreProcessRs" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java"/>
+    </Class>
+    <Method classname="reqsimile.data.PreProcessRs" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.data.PreProcessRs" start="49" end="336" startBytecode="0" endBytecode="3755" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="2" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="61" end="61" startBytecode="38" endBytecode="38" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="62" end="62" startBytecode="44" endBytecode="44" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="69" end="69" startBytecode="61" endBytecode="61" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="70" end="70" startBytecode="92" endBytecode="92" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="80" end="80" startBytecode="108" endBytecode="108" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="81" end="81" startBytecode="109" endBytecode="109" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="82" end="82" startBytecode="118" endBytecode="118" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="83" end="83" startBytecode="130" endBytecode="130" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="81" end="81" startBytecode="135" endBytecode="135" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="84" end="84" startBytecode="144" endBytecode="144" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="89" end="89" startBytecode="161" endBytecode="161" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="90" end="90" startBytecode="167" endBytecode="167" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="93" end="93" startBytecode="173" endBytecode="173" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="94" end="94" startBytecode="175" endBytecode="175" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="95" end="95" startBytecode="177" endBytecode="177" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="92" end="92" startBytecode="183" endBytecode="183" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="97" end="97" startBytecode="188" endBytecode="188" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="98" end="98" startBytecode="194" endBytecode="194" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="99" end="99" startBytecode="196" endBytecode="196" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="96" end="96" startBytecode="202" endBytecode="202" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="102" end="102" startBytecode="207" endBytecode="207" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="103" end="103" startBytecode="213" endBytecode="213" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="104" end="104" startBytecode="215" endBytecode="215" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="101" end="101" startBytecode="221" endBytecode="221" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="107" end="107" startBytecode="226" endBytecode="226" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="108" end="108" startBytecode="231" endBytecode="231" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="113" end="113" startBytecode="260" endBytecode="260" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="116" end="116" startBytecode="269" endBytecode="269" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="118" end="118" startBytecode="274" endBytecode="274" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="122" end="122" startBytecode="285" endBytecode="285" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="123" end="123" startBytecode="292" endBytecode="292" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="131" end="131" startBytecode="321" endBytecode="321" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="131" end="131" startBytecode="322" endBytecode="322" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="132" end="132" startBytecode="328" endBytecode="328" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="141" end="141" startBytecode="369" endBytecode="369" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="142" end="142" startBytecode="377" endBytecode="377" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="143" end="143" startBytecode="395" endBytecode="395" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="142" end="142" startBytecode="403" endBytecode="403" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="144" end="144" startBytecode="406" endBytecode="406" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="145" end="145" startBytecode="415" endBytecode="415" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 2}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.data.PreProcessRs">
+      <SourceLine classname="reqsimile.data.PreProcessRs" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java"/>
+    </Class>
+    <Method classname="reqsimile.data.PreProcessRs" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.data.PreProcessRs" start="49" end="336" startBytecode="0" endBytecode="641" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/Statement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.Statement" start="1096" end="1647" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Type>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="61" end="61" startBytecode="38" endBytecode="38" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java"/>
+    <SourceLine classname="reqsimile.data.PreProcessRs" start="61" end="61" startBytecode="38" endBytecode="38" sourcefile="PreProcessRs.java" sourcepath="reqsimile/data/PreProcessRs.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.ReqData">
+      <SourceLine classname="reqsimile.data.ReqData" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqData" name="getRowForReqKey" signature="(I)I" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqData" start="208" end="211" startBytecode="0" endBytecode="93" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.ReqData" start="209" end="209" startBytecode="16" endBytecode="16" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    <SourceLine classname="reqsimile.data.ReqData" start="209" end="209" startBytecode="16" endBytecode="16" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqData">
+      <SourceLine classname="reqsimile.data.ReqData" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqData" name="getDbConnection" signature="()Ljava/sql/Connection;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqData" start="65" end="65" startBytecode="0" endBytecode="46" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqData" name="dbConn" signature="Ljava/sql/Connection;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqData" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.data.ReqData" start="65" end="65" startBytecode="4" endBytecode="4" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    <SourceLine classname="reqsimile.data.ReqData" start="65" end="65" startBytecode="4" endBytecode="4" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqData">
+      <SourceLine classname="reqsimile.data.ReqData" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqData" name="setColumnNames" signature="([Ljava/lang/Object;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqData" start="129" end="130" startBytecode="0" endBytecode="61" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqData" name="columnNames" signature="[Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqData" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Field>
+    <LocalVariable name="columnNames" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.data.ReqData" start="129" end="129" startBytecode="2" endBytecode="2" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    <SourceLine classname="reqsimile.data.ReqData" start="129" end="129" startBytecode="2" endBytecode="2" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqData">
+      <SourceLine classname="reqsimile.data.ReqData" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqData" name="setDbConnection" signature="(Ljava/sql/Connection;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqData" start="56" end="57" startBytecode="0" endBytecode="61" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqData" name="dbConn" signature="Ljava/sql/Connection;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqData" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    </Field>
+    <LocalVariable name="dbConn" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.data.ReqData" start="56" end="56" startBytecode="2" endBytecode="2" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+    <SourceLine classname="reqsimile.data.ReqData" start="56" end="56" startBytecode="2" endBytecode="2" sourcefile="ReqData.java" sourcepath="reqsimile/data/ReqData.java"/>
+  </BugInstance>
+  <BugInstance type="BX_BOXING_IMMEDIATELY_UNBOXED" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="getRowForegroundColor" signature="(I)Ljava/awt/Color;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="585" end="593" startBytecode="0" endBytecode="207" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="589" end="589" startBytecode="53" endBytecode="53" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="589" end="589" startBytecode="53" endBytecode="53" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="decreaseLinkStatus" signature="(Ljava/lang/Integer;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="205" end="223" startBytecode="0" endBytecode="268" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="206" end="206" startBytecode="12" endBytecode="12" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="206" end="206" startBytecode="12" endBytecode="12" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="getLinkStatus" signature="(I)I" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="670" end="684" startBytecode="0" endBytecode="283" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="673" end="673" startBytecode="30" endBytecode="30" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="673" end="673" startBytecode="30" endBytecode="30" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="increaseLinkStatus" signature="(Ljava/lang/Integer;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="179" end="192" startBytecode="0" endBytecode="242" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="180" end="180" startBytecode="12" endBytecode="12" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="180" end="180" startBytecode="12" endBytecode="12" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="isLinked" signature="(I)Z" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="644" end="652" startBytecode="0" endBytecode="200" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="647" end="647" startBytecode="30" endBytecode="30" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="647" end="647" startBytecode="30" endBytecode="30" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="swapLink" signature="(I)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="267" end="360" startBytecode="0" endBytecode="1163" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="267" end="267" startBytecode="9" endBytecode="9" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="267" end="267" startBytecode="9" endBytecode="9" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="updateRowReferenceArray" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="693" end="696" startBytecode="0" endBytecode="127" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="695" end="695" startBytecode="25" endBytecode="25" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="695" end="695" startBytecode="25" endBytecode="25" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="getDataSet" signature="()Lreqsimile/data/ReqData;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="133" end="133" startBytecode="0" endBytecode="46" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqDataModel" name="dataSet" signature="Lreqsimile/data/ReqData;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="133" end="133" startBytecode="4" endBytecode="4" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="133" end="133" startBytecode="4" endBytecode="4" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="getHeaderMap" signature="()[I" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="456" end="456" startBytecode="0" endBytecode="46" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqDataModel" name="headerMap" signature="[I" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="456" end="456" startBytecode="4" endBytecode="4" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="456" end="456" startBytecode="4" endBytecode="4" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="&lt;init&gt;" signature="(Ljava/lang/String;Lreqsimile/data/ReqData;I)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="82" end="88" startBytecode="0" endBytecode="179" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqDataModel" name="dataSet" signature="Lreqsimile/data/ReqData;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Field>
+    <LocalVariable name="data" register="2" pc="44" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="84" end="84" startBytecode="44" endBytecode="44" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="84" end="84" startBytecode="44" endBytecode="44" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="setColumnNames" signature="([Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="467" end="468" startBytecode="0" endBytecode="61" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqDataModel" name="columnNames" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Field>
+    <LocalVariable name="columnNames" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="467" end="467" startBytecode="2" endBytecode="2" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="467" end="467" startBytecode="2" endBytecode="2" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="setDataSet" signature="(Lreqsimile/data/ReqData;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="123" end="125" startBytecode="0" endBytecode="69" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqDataModel" name="dataSet" signature="Lreqsimile/data/ReqData;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Field>
+    <LocalVariable name="data" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="123" end="123" startBytecode="2" endBytecode="2" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="123" end="123" startBytecode="2" endBytecode="2" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="setHeaderMap" signature="([I)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="446" end="447" startBytecode="0" endBytecode="61" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqDataModel" name="headerMap" signature="[I" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Field>
+    <LocalVariable name="coll" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="446" end="446" startBytecode="2" endBytecode="2" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="446" end="446" startBytecode="2" endBytecode="2" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="setReqLinks" signature="(IILjava/util/HashMap;)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="155" end="158" startBytecode="0" endBytecode="99" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Field classname="reqsimile.data.ReqDataModel" name="links" signature="Ljava/util/HashMap;" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Field>
+    <LocalVariable name="links" register="3" pc="12" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="157" end="157" startBytecode="12" endBytecode="12" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="157" end="157" startBytecode="12" endBytecode="12" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="swapLink" signature="(I)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="267" end="360" startBytecode="0" endBytecode="1163" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="344" end="344" startBytecode="450" endBytecode="450" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="345" end="345" startBytecode="457" endBytecode="457" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="347" end="347" startBytecode="477" endBytecode="477" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="348" end="348" startBytecode="479" endBytecode="479" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="349" end="349" startBytecode="492" endBytecode="492" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="348" end="348" startBytecode="519" endBytecode="519" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="353" end="353" startBytecode="522" endBytecode="522" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="354" end="354" startBytecode="532" endBytecode="532" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="355" end="355" startBytecode="536" endBytecode="536" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="356" end="356" startBytecode="543" endBytecode="543" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="355" end="355" startBytecode="544" endBytecode="544" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="358" end="358" startBytecode="547" endBytecode="547" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="360" end="360" startBytecode="553" endBytecode="553" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY" first="2">
+    <Class classname="reqsimile.data.ReqDataModel">
+      <SourceLine classname="reqsimile.data.ReqDataModel" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Class>
+    <Method classname="reqsimile.data.ReqDataModel" name="swapLink" signature="(I)V" isStatic="false">
+      <SourceLine classname="reqsimile.data.ReqDataModel" start="267" end="360" startBytecode="0" endBytecode="245" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="345" end="345" startBytecode="461" endBytecode="461" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+    <SourceLine classname="reqsimile.data.ReqDataModel" start="345" end="345" startBytecode="461" endBytecode="461" sourcefile="ReqDataModel.java" sourcepath="reqsimile/data/ReqDataModel.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_Main;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler" start="43" end="45" startBytecode="0" endBytecode="78" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler" name="gui" signature="Lreqsimile/gui/GUI_Main;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="gui" register="1" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler" start="44" end="44" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler" start="44" end="44" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$ConnectAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$ConnectAction" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_EventHandler;ILreqsimile/gui/GUI_SettingsReqSources;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectAction" start="72" end="80" startBytecode="0" endBytecode="125" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler$ConnectAction" name="settingsGUI" signature="Lreqsimile/gui/GUI_SettingsReqSources;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="settingsGUI" register="3" pc="16" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectAction" start="74" end="74" startBytecode="16" endBytecode="16" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectAction" start="74" end="74" startBytecode="16" endBytecode="16" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$ConnectLinksAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectLinksAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$ConnectLinksAction" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_EventHandler;Lreqsimile/gui/GUI_SettingsReqSources;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectLinksAction" start="130" end="138" startBytecode="0" endBytecode="106" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler$ConnectLinksAction" name="settingsGUI" signature="Lreqsimile/gui/GUI_SettingsReqSources;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectLinksAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="settingsGUI" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectLinksAction" start="132" end="132" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$ConnectLinksAction" start="132" end="132" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_EventHandler;Lreqsimile/gui/GUI_SettingsReqSources;Ljavax/swing/JComboBox;Ljavax/swing/JComboBox;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" start="419" end="423" startBytecode="0" endBytecode="117" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" name="comboBoxA" signature="Ljavax/swing/JComboBox;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="comboBoxA" register="3" pc="16" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" start="421" end="421" startBytecode="16" endBytecode="16" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" start="421" end="421" startBytecode="16" endBytecode="16" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_EventHandler;Lreqsimile/gui/GUI_SettingsReqSources;Ljavax/swing/JComboBox;Ljavax/swing/JComboBox;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" start="419" end="423" startBytecode="0" endBytecode="117" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" name="comboBoxB" signature="Ljavax/swing/JComboBox;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="comboBoxB" register="4" pc="22" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" start="422" end="422" startBytecode="22" endBytecode="22" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" start="422" end="422" startBytecode="22" endBytecode="22" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_EventHandler;Lreqsimile/gui/GUI_SettingsReqSources;Ljavax/swing/JComboBox;Ljavax/swing/JComboBox;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" start="419" end="423" startBytecode="0" endBytecode="117" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" name="gui_settings" signature="Lreqsimile/gui/GUI_SettingsReqSources;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="gui" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" start="420" end="420" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" start="420" end="420" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_EventHandler;Lreqsimile/gui/GUI_SettingsReqSources;ILjavax/swing/JComboBox;Lreqsimile/data/InputFieldsTableModel;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" start="333" end="338" startBytecode="0" endBytecode="137" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" name="comboBox" signature="Ljavax/swing/JComboBox;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="comboBox" register="4" pc="22" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" start="336" end="336" startBytecode="22" endBytecode="22" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" start="336" end="336" startBytecode="22" endBytecode="22" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_EventHandler;Lreqsimile/gui/GUI_SettingsReqSources;ILjavax/swing/JComboBox;Lreqsimile/data/InputFieldsTableModel;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" start="333" end="338" startBytecode="0" endBytecode="137" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" name="fieldsTable" signature="Lreqsimile/data/InputFieldsTableModel;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="fieldsTable" register="5" pc="28" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" start="337" end="337" startBytecode="28" endBytecode="28" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" start="337" end="337" startBytecode="28" endBytecode="28" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_EventHandler;Lreqsimile/gui/GUI_SettingsReqSources;ILjavax/swing/JComboBox;Lreqsimile/data/InputFieldsTableModel;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" start="333" end="338" startBytecode="0" endBytecode="137" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" name="gui_settings" signature="Lreqsimile/gui/GUI_SettingsReqSources;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="gui" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" start="334" end="334" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" start="334" end="334" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$LinkAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$LinkAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Field classname="reqsimile.gui.GUI_EventHandler$LinkAction" name="reqData" signature="Lreqsimile/data/ReqData;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$LinkAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$LinkAction" start="609" end="609" startBytecode="25" endBytecode="25" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SIC" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$LinkButtonListener">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$LinkButtonListener" start="646" end="656" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" start="232" end="293" startBytecode="0" endBytecode="759" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" start="249" end="249" startBytecode="133" endBytecode="133" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" start="249" end="249" startBytecode="133" endBytecode="133" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" name="&lt;init&gt;" signature="(Lreqsimile/gui/GUI_EventHandler;Lreqsimile/gui/GUI_SettingsReqSources;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" start="220" end="225" startBytecode="0" endBytecode="106" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" name="settingsGUI" signature="Lreqsimile/gui/GUI_SettingsReqSources;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Field>
+    <LocalVariable name="settingsGUI" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" start="221" end="221" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" start="221" end="221" startBytecode="11" endBytecode="11" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.gui.GUI_EventHandler$searchTermsOnlyItemListener">
+      <SourceLine classname="reqsimile.gui.GUI_EventHandler$searchTermsOnlyItemListener" start="708" end="722" sourcefile="GUI_EventHandler.java" sourcepath="reqsimile/gui/GUI_EventHandler.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.gui.GUI_Main">
+      <SourceLine classname="reqsimile.gui.GUI_Main" sourcefile="GUI_Main.java" sourcepath="reqsimile/gui/GUI_Main.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_Main" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_Main" start="150" end="152" startBytecode="0" endBytecode="363" sourcefile="GUI_Main.java" sourcepath="reqsimile/gui/GUI_Main.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.gui.GUI_Main" start="40" end="40" startBytecode="13" endBytecode="13" sourcefile="GUI_Main.java" sourcepath="reqsimile/gui/GUI_Main.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_Main" start="40" end="40" startBytecode="13" endBytecode="13" sourcefile="GUI_Main.java" sourcepath="reqsimile/gui/GUI_Main.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_Main" start="40" end="40" startBytecode="13" endBytecode="13" sourcefile="GUI_Main.java" sourcepath="reqsimile/gui/GUI_Main.java"/>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.gui.GUI_MainMenu">
+      <SourceLine classname="reqsimile.gui.GUI_MainMenu" sourcefile="GUI_MainMenu.java" sourcepath="reqsimile/gui/GUI_MainMenu.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_MainMenu" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_MainMenu" start="88" end="90" startBytecode="0" endBytecode="555" sourcefile="GUI_MainMenu.java" sourcepath="reqsimile/gui/GUI_MainMenu.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.gui.GUI_MainMenu" start="61" end="61" startBytecode="211" endBytecode="211" sourcefile="GUI_MainMenu.java" sourcepath="reqsimile/gui/GUI_MainMenu.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_MainMenu" start="61" end="61" startBytecode="211" endBytecode="211" sourcefile="GUI_MainMenu.java" sourcepath="reqsimile/gui/GUI_MainMenu.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_MainMenu" start="61" end="61" startBytecode="211" endBytecode="211" sourcefile="GUI_MainMenu.java" sourcepath="reqsimile/gui/GUI_MainMenu.java"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" rank="16" abbrev="Dm" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.gui.GUI_MainMenuListener">
+      <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_MainMenuListener" name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" start="38" end="132" startBytecode="0" endBytecode="906" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" start="44" end="44" startBytecode="136" endBytecode="136" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" start="44" end="44" startBytecode="136" endBytecode="136" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="2">
+    <Class classname="reqsimile.gui.GUI_MainMenuListener">
+      <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_MainMenuListener" name="actionPerformed" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" start="38" end="132" startBytecode="0" endBytecode="906" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" start="41" end="128" startBytecode="25" endBytecode="447" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" start="41" end="128" startBytecode="25" endBytecode="447" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.gui.GUI_MainMenuListener">
+      <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+    </Class>
+    <Field classname="reqsimile.gui.GUI_MainMenuListener" name="menuItem" signature="Ljavax/swing/JMenuItem;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_MainMenuListener" sourcefile="GUI_MainMenuListener.java" sourcepath="reqsimile/gui/GUI_MainMenuListener.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.gui.GUI_SettingsReqSources">
+      <SourceLine classname="reqsimile.gui.GUI_SettingsReqSources" sourcefile="GUI_SettingsReqSources.java" sourcepath="reqsimile/gui/GUI_SettingsReqSources.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_SettingsReqSources" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_SettingsReqSources" start="88" end="105" startBytecode="0" endBytecode="377" sourcefile="GUI_SettingsReqSources.java" sourcepath="reqsimile/gui/GUI_SettingsReqSources.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.gui.GUI_SettingsReqSources" start="36" end="36" startBytecode="13" endBytecode="13" sourcefile="GUI_SettingsReqSources.java" sourcepath="reqsimile/gui/GUI_SettingsReqSources.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_SettingsReqSources" start="36" end="36" startBytecode="13" endBytecode="13" sourcefile="GUI_SettingsReqSources.java" sourcepath="reqsimile/gui/GUI_SettingsReqSources.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_SettingsReqSources" start="36" end="36" startBytecode="13" endBytecode="13" sourcefile="GUI_SettingsReqSources.java" sourcepath="reqsimile/gui/GUI_SettingsReqSources.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="reqsimile.gui.GUI_SettingsReqSources">
+      <SourceLine classname="reqsimile.gui.GUI_SettingsReqSources" sourcefile="GUI_SettingsReqSources.java" sourcepath="reqsimile/gui/GUI_SettingsReqSources.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.GUI_SettingsReqSources" name="initForm" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.GUI_SettingsReqSources" start="110" end="316" startBytecode="0" endBytecode="1256" sourcefile="GUI_SettingsReqSources.java" sourcepath="reqsimile/gui/GUI_SettingsReqSources.java"/>
+    </Method>
+    <LocalVariable name="c" register="9" pc="731" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.GUI_SettingsReqSources" start="183" end="183" startBytecode="729" endBytecode="729" sourcefile="GUI_SettingsReqSources.java" sourcepath="reqsimile/gui/GUI_SettingsReqSources.java"/>
+    <SourceLine classname="reqsimile.gui.GUI_SettingsReqSources" start="183" end="183" startBytecode="729" endBytecode="729" sourcefile="GUI_SettingsReqSources.java" sourcepath="reqsimile/gui/GUI_SettingsReqSources.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="c"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.JScrollPaneAdjuster">
+      <SourceLine classname="reqsimile.gui.JScrollPaneAdjuster" sourcefile="JScrollPaneAdjuster.java" sourcepath="reqsimile/gui/JScrollPaneAdjuster.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.JScrollPaneAdjuster" name="&lt;init&gt;" signature="(Ljavax/swing/JScrollPane;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JScrollPaneAdjuster" start="29" end="37" startBytecode="0" endBytecode="126" sourcefile="JScrollPaneAdjuster.java" sourcepath="reqsimile/gui/JScrollPaneAdjuster.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.JScrollPaneAdjuster" name="pane" signature="Ljavax/swing/JScrollPane;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JScrollPaneAdjuster" sourcefile="JScrollPaneAdjuster.java" sourcepath="reqsimile/gui/JScrollPaneAdjuster.java"/>
+    </Field>
+    <LocalVariable name="pane" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.JScrollPaneAdjuster" start="31" end="31" startBytecode="6" endBytecode="6" sourcefile="JScrollPaneAdjuster.java" sourcepath="reqsimile/gui/JScrollPaneAdjuster.java"/>
+    <SourceLine classname="reqsimile.gui.JScrollPaneAdjuster" start="31" end="31" startBytecode="6" endBytecode="6" sourcefile="JScrollPaneAdjuster.java" sourcepath="reqsimile/gui/JScrollPaneAdjuster.java"/>
+  </BugInstance>
+  <BugInstance type="DM_STRING_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.gui.JTableButtonEditor">
+      <SourceLine classname="reqsimile.gui.JTableButtonEditor" sourcefile="JTableButtonEditor.java" sourcepath="reqsimile/gui/JTableButtonEditor.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.JTableButtonEditor" name="getCellEditorValue" signature="()Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableButtonEditor" start="61" end="61" startBytecode="0" endBytecode="53" sourcefile="JTableButtonEditor.java" sourcepath="reqsimile/gui/JTableButtonEditor.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.gui.JTableButtonEditor" start="61" end="61" startBytecode="8" endBytecode="8" sourcefile="JTableButtonEditor.java" sourcepath="reqsimile/gui/JTableButtonEditor.java"/>
+    <SourceLine classname="reqsimile.gui.JTableButtonEditor" start="61" end="61" startBytecode="8" endBytecode="8" sourcefile="JTableButtonEditor.java" sourcepath="reqsimile/gui/JTableButtonEditor.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.JTableButtonEditor">
+      <SourceLine classname="reqsimile.gui.JTableButtonEditor" sourcefile="JTableButtonEditor.java" sourcepath="reqsimile/gui/JTableButtonEditor.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.JTableButtonEditor" name="getTableCellEditorComponent" signature="(Ljavax/swing/JTable;Ljava/lang/Object;ZII)Ljava/awt/Component;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableButtonEditor" start="48" end="57" startBytecode="0" endBytecode="256" sourcefile="JTableButtonEditor.java" sourcepath="reqsimile/gui/JTableButtonEditor.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.JTableButtonEditor" name="button" signature="Ljavax/swing/JButton;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableButtonEditor" sourcefile="JTableButtonEditor.java" sourcepath="reqsimile/gui/JTableButtonEditor.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.gui.JTableButtonEditor" start="57" end="57" startBytecode="93" endBytecode="93" sourcefile="JTableButtonEditor.java" sourcepath="reqsimile/gui/JTableButtonEditor.java"/>
+    <SourceLine classname="reqsimile.gui.JTableButtonEditor" start="57" end="57" startBytecode="93" endBytecode="93" sourcefile="JTableButtonEditor.java" sourcepath="reqsimile/gui/JTableButtonEditor.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2">
+    <Class classname="reqsimile.gui.JTableRowHeaderResizer">
+      <SourceLine classname="reqsimile.gui.JTableRowHeaderResizer" sourcefile="JTableRowHeaderResizer.java" sourcepath="reqsimile/gui/JTableRowHeaderResizer.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.JTableRowHeaderResizer" name="mouseDragged" signature="(Ljava/awt/event/MouseEvent;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableRowHeaderResizer" start="176" end="204" startBytecode="0" endBytecode="63" sourcefile="JTableRowHeaderResizer.java" sourcepath="reqsimile/gui/JTableRowHeaderResizer.java"/>
+    </Method>
+    <LocalVariable name="newX" register="2" pc="24" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.JTableRowHeaderResizer" start="181" end="181" startBytecode="23" endBytecode="23" sourcefile="JTableRowHeaderResizer.java" sourcepath="reqsimile/gui/JTableRowHeaderResizer.java"/>
+    <SourceLine classname="reqsimile.gui.JTableRowHeaderResizer" start="181" end="181" startBytecode="23" endBytecode="23" sourcefile="JTableRowHeaderResizer.java" sourcepath="reqsimile/gui/JTableRowHeaderResizer.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="newX"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.JTableRowHeaderResizer">
+      <SourceLine classname="reqsimile.gui.JTableRowHeaderResizer" sourcefile="JTableRowHeaderResizer.java" sourcepath="reqsimile/gui/JTableRowHeaderResizer.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.JTableRowHeaderResizer" name="&lt;init&gt;" signature="(Ljavax/swing/JScrollPane;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableRowHeaderResizer" start="34" end="39" startBytecode="0" endBytecode="81" sourcefile="JTableRowHeaderResizer.java" sourcepath="reqsimile/gui/JTableRowHeaderResizer.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.JTableRowHeaderResizer" name="pane" signature="Ljavax/swing/JScrollPane;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableRowHeaderResizer" sourcefile="JTableRowHeaderResizer.java" sourcepath="reqsimile/gui/JTableRowHeaderResizer.java"/>
+    </Field>
+    <LocalVariable name="pane" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.JTableRowHeaderResizer" start="36" end="36" startBytecode="6" endBytecode="6" sourcefile="JTableRowHeaderResizer.java" sourcepath="reqsimile/gui/JTableRowHeaderResizer.java"/>
+    <SourceLine classname="reqsimile.gui.JTableRowHeaderResizer" start="36" end="36" startBytecode="6" endBytecode="6" sourcefile="JTableRowHeaderResizer.java" sourcepath="reqsimile/gui/JTableRowHeaderResizer.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.JTableRowHeightResizer">
+      <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.JTableRowHeightResizer" name="&lt;init&gt;" signature="(Ljavax/swing/JTable;Ljavax/swing/JTable;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" start="26" end="30" startBytecode="0" endBytecode="88" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.JTableRowHeightResizer" name="dataTable" signature="Ljavax/swing/JTable;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    </Field>
+    <LocalVariable name="dataTable" register="2" pc="11" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" start="29" end="29" startBytecode="11" endBytecode="11" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" start="29" end="29" startBytecode="11" endBytecode="11" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.JTableRowHeightResizer">
+      <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.JTableRowHeightResizer" name="&lt;init&gt;" signature="(Ljavax/swing/JTable;Ljavax/swing/JTable;)V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" start="26" end="30" startBytecode="0" endBytecode="88" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.JTableRowHeightResizer" name="rowTable" signature="Ljavax/swing/JTable;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    </Field>
+    <LocalVariable name="rowTable" register="1" pc="6" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" start="28" end="28" startBytecode="6" endBytecode="6" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" start="28" end="28" startBytecode="6" endBytecode="6" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.gui.JTableRowHeightResizer">
+      <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    </Class>
+    <Field classname="reqsimile.gui.JTableRowHeightResizer" name="last" signature="Ljava/awt/Point;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.JTableRowHeightResizer" sourcefile="JTableRowHeightResizer.java" sourcepath="reqsimile/gui/JTableRowHeightResizer.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" rank="18" abbrev="MS" category="MALICIOUS_CODE" first="2">
+    <Class classname="reqsimile.gui.MultiLineCellRenderer">
+      <SourceLine classname="reqsimile.gui.MultiLineCellRenderer" sourcefile="MultiLineCellRenderer.java" sourcepath="reqsimile/gui/MultiLineCellRenderer.java"/>
+    </Class>
+    <Field classname="reqsimile.gui.MultiLineCellRenderer" name="noFocusBorder" signature="Ljavax/swing/border/Border;" isStatic="true">
+      <SourceLine classname="reqsimile.gui.MultiLineCellRenderer" sourcefile="MultiLineCellRenderer.java" sourcepath="reqsimile/gui/MultiLineCellRenderer.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" rank="15" abbrev="ST" category="STYLE" first="2">
+    <Class classname="reqsimile.gui.MultiLineCellRenderer">
+      <SourceLine classname="reqsimile.gui.MultiLineCellRenderer" sourcefile="MultiLineCellRenderer.java" sourcepath="reqsimile/gui/MultiLineCellRenderer.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.MultiLineCellRenderer" name="&lt;init&gt;" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.gui.MultiLineCellRenderer" start="35" end="41" startBytecode="0" endBytecode="106" sourcefile="MultiLineCellRenderer.java" sourcepath="reqsimile/gui/MultiLineCellRenderer.java"/>
+    </Method>
+    <Field classname="reqsimile.gui.MultiLineCellRenderer" name="noFocusBorder" signature="Ljavax/swing/border/Border;" isStatic="true">
+      <SourceLine classname="reqsimile.gui.MultiLineCellRenderer" sourcefile="MultiLineCellRenderer.java" sourcepath="reqsimile/gui/MultiLineCellRenderer.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.gui.MultiLineCellRenderer" start="36" end="36" startBytecode="15" endBytecode="15" sourcefile="MultiLineCellRenderer.java" sourcepath="reqsimile/gui/MultiLineCellRenderer.java"/>
+    <SourceLine classname="reqsimile.gui.MultiLineCellRenderer" start="36" end="36" startBytecode="15" endBytecode="15" sourcefile="MultiLineCellRenderer.java" sourcepath="reqsimile/gui/MultiLineCellRenderer.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="2">
+    <Class classname="reqsimile.gui.SimValueColorRenderer">
+      <SourceLine classname="reqsimile.gui.SimValueColorRenderer" sourcefile="SimValueColorRenderer.java" sourcepath="reqsimile/gui/SimValueColorRenderer.java"/>
+    </Class>
+    <Method classname="reqsimile.gui.SimValueColorRenderer" name="getTableCellRendererComponent" signature="(Ljavax/swing/JTable;Ljava/lang/Object;ZZII)Ljava/awt/Component;" isStatic="false">
+      <SourceLine classname="reqsimile.gui.SimValueColorRenderer" start="47" end="79" startBytecode="0" endBytecode="424" sourcefile="SimValueColorRenderer.java" sourcepath="reqsimile/gui/SimValueColorRenderer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.gui.SimValueColorRenderer" start="54" end="65" startBytecode="86" endBytecode="159" sourcefile="SimValueColorRenderer.java" sourcepath="reqsimile/gui/SimValueColorRenderer.java"/>
+    <SourceLine classname="reqsimile.gui.SimValueColorRenderer" start="54" end="65" startBytecode="86" endBytecode="159" sourcefile="SimValueColorRenderer.java" sourcepath="reqsimile/gui/SimValueColorRenderer.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.simcalc.Cosine">
+      <SourceLine classname="reqsimile.simcalc.Cosine" sourcefile="Cosine.java" sourcepath="reqsimile/simcalc/Cosine.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.Cosine" name="sqSumLog" signature="(Ljava/util/Collection;)D" isStatic="true">
+      <SourceLine classname="reqsimile.simcalc.Cosine" start="30" end="45" startBytecode="0" endBytecode="363" sourcefile="Cosine.java" sourcepath="reqsimile/simcalc/Cosine.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.simcalc.Cosine" start="36" end="36" startBytecode="63" endBytecode="63" sourcefile="Cosine.java" sourcepath="reqsimile/simcalc/Cosine.java"/>
+    <SourceLine classname="reqsimile.simcalc.Cosine" start="36" end="36" startBytecode="63" endBytecode="63" sourcefile="Cosine.java" sourcepath="reqsimile/simcalc/Cosine.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.simcalc.FetchSimilar">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.FetchSimilar" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="126" end="500" startBytecode="0" endBytecode="4498" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="382" end="382" startBytecode="1556" endBytecode="1556" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="382" end="382" startBytecode="1556" endBytecode="1556" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="2" rank="11" abbrev="ES" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.simcalc.FetchSimilar">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.FetchSimilar" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="126" end="500" startBytecode="0" endBytecode="924" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="" role="STRING_CONSTANT"/>
+    <LocalVariable name="termList" register="24" pc="466" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="216" end="216" startBytecode="468" endBytecode="468" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="216" end="216" startBytecode="468" endBytecode="468" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.EMPTY_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="2">
+    <Class classname="reqsimile.simcalc.FetchSimilar">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.FetchSimilar" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="126" end="500" startBytecode="0" endBytecode="4498" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="248" end="248" startBytecode="664" endBytecode="664" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="249" end="249" startBytecode="670" endBytecode="670" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="253" end="253" startBytecode="694" endBytecode="694" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="254" end="254" startBytecode="696" endBytecode="696" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="255" end="255" startBytecode="708" endBytecode="708" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="256" end="256" startBytecode="719" endBytecode="719" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY" first="2">
+    <Class classname="reqsimile.simcalc.FetchSimilar">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.FetchSimilar" name="run" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="126" end="500" startBytecode="0" endBytecode="924" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="248" end="248" startBytecode="664" endBytecode="664" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="248" end="248" startBytecode="664" endBytecode="664" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" rank="18" abbrev="UrF" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.simcalc.FetchSimilar">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Class>
+    <Field classname="reqsimile.simcalc.FetchSimilar" name="reqData" signature="Lreqsimile/data/ReqData;" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.FetchSimilar" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.simcalc.FetchSimilar" start="94" end="94" startBytecode="18" endBytecode="18" sourcefile="FetchSimilar.java" sourcepath="reqsimile/simcalc/FetchSimilar.java"/>
+  </BugInstance>
+  <BugInstance type="SKIPPED_CLASS_TOO_BIG" priority="2" rank="20" abbrev="SKIPPED" category="EXPERIMENTAL" first="2">
+    <Class classname="reqsimile.simcalc.PreProcessor">
+      <SourceLine classname="reqsimile.simcalc.PreProcessor" start="177" end="55794" sourcefile="PreProcessor.java" sourcepath="reqsimile/simcalc/PreProcessor.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.simcalc.TokenFrequencies">
+      <SourceLine classname="reqsimile.simcalc.TokenFrequencies" sourcefile="TokenFrequencies.java" sourcepath="reqsimile/simcalc/TokenFrequencies.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.TokenFrequencies" name="increment" signature="(I)V" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.TokenFrequencies" start="26" end="34" startBytecode="0" endBytecode="169" sourcefile="TokenFrequencies.java" sourcepath="reqsimile/simcalc/TokenFrequencies.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.simcalc.TokenFrequencies" start="26" end="26" startBytecode="5" endBytecode="5" sourcefile="TokenFrequencies.java" sourcepath="reqsimile/simcalc/TokenFrequencies.java"/>
+    <SourceLine classname="reqsimile.simcalc.TokenFrequencies" start="26" end="26" startBytecode="5" endBytecode="5" sourcefile="TokenFrequencies.java" sourcepath="reqsimile/simcalc/TokenFrequencies.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.simcalc.Tokens">
+      <SourceLine classname="reqsimile.simcalc.Tokens" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.Tokens" name="add" signature="(Ljava/lang/String;)I" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.Tokens" start="163" end="170" startBytecode="0" endBytecode="144" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="165" end="165" startBytecode="24" endBytecode="24" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="165" end="165" startBytecode="24" endBytecode="24" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.simcalc.Tokens">
+      <SourceLine classname="reqsimile.simcalc.Tokens" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.Tokens" name="fetch" signature="()Z" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.Tokens" start="42" end="77" startBytecode="0" endBytecode="514" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(I)V" isStatic="false" role="METHOD_CALLED" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1104" end="1106" startBytecode="0" endBytecode="69" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(I)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL" classAnnotationNames="jdk.internal.ValueBased">
+      <SourceLine classname="java.lang.Integer" start="1079" end="1081" startBytecode="0" endBytecode="90" sourcefile="Integer.java" sourcepath="java/lang/Integer.java"/>
+    </Method>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="67" end="67" startBytecode="135" endBytecode="135" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="67" end="67" startBytecode="135" endBytecode="135" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="2">
+    <Class classname="reqsimile.simcalc.Tokens">
+      <SourceLine classname="reqsimile.simcalc.Tokens" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.Tokens" name="store" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.Tokens" start="92" end="153" startBytecode="0" endBytecode="764" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="101" end="101" startBytecode="24" endBytecode="24" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="102" end="102" startBytecode="30" endBytecode="30" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="109" end="109" startBytecode="46" endBytecode="46" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="110" end="110" startBytecode="70" endBytecode="70" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="118" end="118" startBytecode="85" endBytecode="85" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="119" end="119" startBytecode="114" endBytecode="114" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="127" end="127" startBytecode="130" endBytecode="130" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="127" end="127" startBytecode="153" endBytecode="153" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="128" end="128" startBytecode="159" endBytecode="159" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="135" end="135" startBytecode="175" endBytecode="175" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="153" end="153" startBytecode="332" endBytecode="332" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="2">
+    <Class classname="reqsimile.simcalc.Tokens">
+      <SourceLine classname="reqsimile.simcalc.Tokens" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.Tokens" name="fetch" signature="()Z" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.Tokens" start="42" end="77" startBytecode="0" endBytecode="514" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="53" end="53" startBytecode="54" endBytecode="54" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="54" end="54" startBytecode="60" endBytecode="60" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="63" end="63" startBytecode="86" endBytecode="86" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="70" end="70" startBytecode="163" endBytecode="163" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="71" end="71" startBytecode="165" endBytecode="165" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="72" end="72" startBytecode="173" endBytecode="173" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="73" end="73" startBytecode="184" endBytecode="184" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="74" end="74" startBytecode="189" endBytecode="189" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="2">
+    <Class classname="reqsimile.simcalc.Tokens">
+      <SourceLine classname="reqsimile.simcalc.Tokens" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.Tokens" name="fetch" signature="()Z" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.Tokens" start="42" end="77" startBytecode="0" endBytecode="514" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="52" end="52" startBytecode="23" endBytecode="23" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="53" end="53" startBytecode="29" endBytecode="29" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="54" end="54" startBytecode="60" endBytecode="60" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="63" end="63" startBytecode="86" endBytecode="86" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="70" end="70" startBytecode="163" endBytecode="163" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="71" end="71" startBytecode="165" endBytecode="165" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="72" end="72" startBytecode="173" endBytecode="173" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="73" end="73" startBytecode="184" endBytecode="184" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="74" end="74" startBytecode="189" endBytecode="189" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="2">
+    <Class classname="reqsimile.simcalc.Tokens">
+      <SourceLine classname="reqsimile.simcalc.Tokens" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.Tokens" name="store" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.Tokens" start="92" end="153" startBytecode="0" endBytecode="138" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/Statement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.Statement" start="1096" end="1647" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Type>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="101" end="101" startBytecode="24" endBytecode="24" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="101" end="101" startBytecode="24" endBytecode="24" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="2">
+    <Class classname="reqsimile.simcalc.Tokens">
+      <SourceLine classname="reqsimile.simcalc.Tokens" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Class>
+    <Method classname="reqsimile.simcalc.Tokens" name="store" signature="()V" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.Tokens" start="92" end="153" startBytecode="0" endBytecode="764" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Method>
+    <Field classname="reqsimile.simcalc.Tokens" name="tokens" signature="Ljava/util/HashMap;" isStatic="false">
+      <SourceLine classname="reqsimile.simcalc.Tokens" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    </Field>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="140" end="140" startBytecode="225" endBytecode="225" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+    <SourceLine classname="reqsimile.simcalc.Tokens" start="140" end="140" startBytecode="225" endBytecode="225" sourcefile="Tokens.java" sourcepath="reqsimile/simcalc/Tokens.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 23 Nov 2023 10:24:22 +0100" total_classes="49" referenced_classes="615" total_bugs="114" total_size="4832" num_packages="4" java_version="17.0.8.1" vm_version="17.0.8.1+1" cpu_seconds="10.64" clock_seconds="6.93" peak_mbytes="879.35" alloc_mbytes="2048.00" gc_seconds="0.18" priority_2="99" priority_1="15">
+    <PackageStats package="reqsimile" total_bugs="37" total_types="7" total_size="882" priority_2="25" priority_1="12">
+      <ClassStats class="reqsimile.APPCONSTANTS" sourceFile="APPCONSTANTS.java" interface="true" size="80" bugs="6" priority_1="6"/>
+      <ClassStats class="reqsimile.Application" sourceFile="Application.java" interface="false" size="248" bugs="7" priority_2="5" priority_1="2"/>
+      <ClassStats class="reqsimile.Application$1" sourceFile="Application.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="reqsimile.Common" sourceFile="Common.java" interface="false" size="42" bugs="5" priority_2="5"/>
+      <ClassStats class="reqsimile.INIFile" sourceFile="INIFile.java" interface="false" size="434" bugs="16" priority_2="13" priority_1="3"/>
+      <ClassStats class="reqsimile.INIFile$INISection" sourceFile="INIFile.java" interface="false" size="62" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="reqsimile.ProjectFileFilter" sourceFile="ProjectFileFilter.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="reqsimile.data" total_bugs="30" total_types="8" total_size="920" priority_2="30">
+      <ClassStats class="reqsimile.data.DBConnections" sourceFile="DBConnections.java" interface="false" size="56" bugs="0"/>
+      <ClassStats class="reqsimile.data.DBConnections$DBConnection" sourceFile="DBConnections.java" interface="false" size="61" bugs="4" priority_2="4"/>
+      <ClassStats class="reqsimile.data.DriverShim" sourceFile="DriverShim.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="reqsimile.data.InputFieldsTableModel" sourceFile="InputFieldsTableModel.java" interface="false" size="40" bugs="2" priority_2="2"/>
+      <ClassStats class="reqsimile.data.PopulateRs" sourceFile="PopulateRs.java" interface="false" size="164" bugs="2" priority_2="2"/>
+      <ClassStats class="reqsimile.data.PreProcessRs" sourceFile="PreProcessRs.java" interface="false" size="168" bugs="2" priority_2="2"/>
+      <ClassStats class="reqsimile.data.ReqData" sourceFile="ReqData.java" interface="false" size="124" bugs="4" priority_2="4"/>
+      <ClassStats class="reqsimile.data.ReqDataModel" sourceFile="ReqDataModel.java" interface="false" size="287" bugs="16" priority_2="16"/>
+    </PackageStats>
+    <PackageStats package="reqsimile.gui" total_bugs="32" total_types="29" total_size="1724" priority_2="30" priority_1="2">
+      <ClassStats class="reqsimile.gui.GUI_EventHandler" sourceFile="GUI_EventHandler.java" interface="false" size="8" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$ConnectAction" sourceFile="GUI_EventHandler.java" interface="false" size="29" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$ConnectLinksAction" sourceFile="GUI_EventHandler.java" interface="false" size="25" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$FetchFieldsForLinksTableAction" sourceFile="GUI_EventHandler.java" interface="false" size="38" bugs="3" priority_2="3"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$FetchFieldsForTableAction" sourceFile="GUI_EventHandler.java" interface="false" size="41" bugs="3" priority_2="3"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$LinkAction" sourceFile="GUI_EventHandler.java" interface="false" size="24" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$LinkButtonListener" sourceFile="GUI_EventHandler.java" interface="false" size="7" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$ResetAction" sourceFile="GUI_EventHandler.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$RsDoubleClickListener" sourceFile="GUI_EventHandler.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$RsSelectionListener" sourceFile="GUI_EventHandler.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$SaveSettingsAction" sourceFile="GUI_EventHandler.java" interface="false" size="70" bugs="2" priority_2="2"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$SearchTermSubmitListener" sourceFile="GUI_EventHandler.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="reqsimile.gui.GUI_EventHandler$searchTermsOnlyItemListener" sourceFile="GUI_EventHandler.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.GUI_Main" sourceFile="GUI_Main.java" interface="false" size="405" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.GUI_MainMenu" sourceFile="GUI_MainMenu.java" interface="false" size="66" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.GUI_MainMenuListener" sourceFile="GUI_MainMenuListener.java" interface="false" size="72" bugs="3" priority_2="3"/>
+      <ClassStats class="reqsimile.gui.GUI_SettingsReqSources" sourceFile="GUI_SettingsReqSources.java" interface="false" size="345" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="reqsimile.gui.JScrollPaneAdjuster" sourceFile="JScrollPaneAdjuster.java" interface="false" size="35" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.JScrollPaneAdjuster$Adjuster" sourceFile="JScrollPaneAdjuster.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="reqsimile.gui.JTableButtonEditor" sourceFile="JTableButtonEditor.java" interface="false" size="25" bugs="2" priority_2="2"/>
+      <ClassStats class="reqsimile.gui.JTableButtonRenderer" sourceFile="JTableButtonRenderer.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="reqsimile.gui.JTableRowHeaderResizer" sourceFile="JTableRowHeaderResizer.java" interface="false" size="107" bugs="2" priority_2="2"/>
+      <ClassStats class="reqsimile.gui.JTableRowHeightResizer" sourceFile="JTableRowHeightResizer.java" interface="false" size="97" bugs="3" priority_2="3"/>
+      <ClassStats class="reqsimile.gui.MultiLineCellRenderer" sourceFile="MultiLineCellRenderer.java" interface="false" size="52" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="reqsimile.gui.MultiLineCellRenderer$UIResource" sourceFile="MultiLineCellRenderer.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="reqsimile.gui.ReqSetColorRenderer" sourceFile="ReqSetColorRenderer.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="reqsimile.gui.RowHeaderRenderer" sourceFile="RowHeaderRenderer.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="reqsimile.gui.SimValueColorRenderer" sourceFile="SimValueColorRenderer.java" interface="false" size="29" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.gui.SwingExtensions" sourceFile="SwingExtensions.java" interface="false" size="29" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="reqsimile.simcalc" total_bugs="15" total_types="5" total_size="1306" priority_2="14" priority_1="1">
+      <ClassStats class="reqsimile.simcalc.Cosine" sourceFile="Cosine.java" interface="false" size="15" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.simcalc.FetchSimilar" sourceFile="FetchSimilar.java" interface="false" size="261" bugs="5" priority_2="4" priority_1="1"/>
+      <ClassStats class="reqsimile.simcalc.PreProcessor" sourceFile="PreProcessor.java" interface="false" size="932" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.simcalc.TokenFrequencies" sourceFile="TokenFrequencies.java" interface="false" size="21" bugs="1" priority_2="1"/>
+      <ClassStats class="reqsimile.simcalc.Tokens" sourceFile="Tokens.java" interface="false" size="77" bugs="7" priority_2="7"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1183" invocations="2384" avgMicrosecondsPerInvocation="496" maxMicrosecondsPerInvocation="113859" standardDeviationMicrosecondsPerInvocation="2753"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="630" invocations="2391" avgMicrosecondsPerInvocation="263" maxMicrosecondsPerInvocation="32550" standardDeviationMicrosecondsPerInvocation="723"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="355" invocations="615" avgMicrosecondsPerInvocation="577" maxMicrosecondsPerInvocation="47576" standardDeviationMicrosecondsPerInvocation="2122"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="349" invocations="2" avgMicrosecondsPerInvocation="174665" maxMicrosecondsPerInvocation="221399" standardDeviationMicrosecondsPerInvocation="46735"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="340" invocations="405" avgMicrosecondsPerInvocation="839" maxMicrosecondsPerInvocation="36639" standardDeviationMicrosecondsPerInvocation="3489"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="323" invocations="615" avgMicrosecondsPerInvocation="526" maxMicrosecondsPerInvocation="13946" standardDeviationMicrosecondsPerInvocation="1101"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="229" invocations="381" avgMicrosecondsPerInvocation="603" maxMicrosecondsPerInvocation="21810" standardDeviationMicrosecondsPerInvocation="2040"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="205" invocations="1539" avgMicrosecondsPerInvocation="133" maxMicrosecondsPerInvocation="3511" standardDeviationMicrosecondsPerInvocation="238"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="201" invocations="397" avgMicrosecondsPerInvocation="507" maxMicrosecondsPerInvocation="16175" standardDeviationMicrosecondsPerInvocation="1610"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="181" invocations="356" avgMicrosecondsPerInvocation="509" maxMicrosecondsPerInvocation="19654" standardDeviationMicrosecondsPerInvocation="1547"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="158" invocations="370" avgMicrosecondsPerInvocation="429" maxMicrosecondsPerInvocation="22423" standardDeviationMicrosecondsPerInvocation="1726"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="132" invocations="381" avgMicrosecondsPerInvocation="348" maxMicrosecondsPerInvocation="11491" standardDeviationMicrosecondsPerInvocation="831"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="114" invocations="300" avgMicrosecondsPerInvocation="380" maxMicrosecondsPerInvocation="14086" standardDeviationMicrosecondsPerInvocation="1270"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="106" invocations="719" avgMicrosecondsPerInvocation="148" maxMicrosecondsPerInvocation="6965" standardDeviationMicrosecondsPerInvocation="340"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="104" invocations="615" avgMicrosecondsPerInvocation="169" maxMicrosecondsPerInvocation="2950" standardDeviationMicrosecondsPerInvocation="302"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="81" invocations="615" avgMicrosecondsPerInvocation="133" maxMicrosecondsPerInvocation="2584" standardDeviationMicrosecondsPerInvocation="258"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="81" invocations="2324" avgMicrosecondsPerInvocation="34" maxMicrosecondsPerInvocation="13301" standardDeviationMicrosecondsPerInvocation="281"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="67" invocations="615" avgMicrosecondsPerInvocation="109" maxMicrosecondsPerInvocation="2730" standardDeviationMicrosecondsPerInvocation="182"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="59" invocations="615" avgMicrosecondsPerInvocation="96" maxMicrosecondsPerInvocation="2531" standardDeviationMicrosecondsPerInvocation="201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="59" invocations="614" avgMicrosecondsPerInvocation="96" maxMicrosecondsPerInvocation="2208" standardDeviationMicrosecondsPerInvocation="223"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="56" invocations="615" avgMicrosecondsPerInvocation="91" maxMicrosecondsPerInvocation="7865" standardDeviationMicrosecondsPerInvocation="529"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="52" invocations="9359" avgMicrosecondsPerInvocation="5" maxMicrosecondsPerInvocation="9721" standardDeviationMicrosecondsPerInvocation="115"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="49" invocations="382" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="7501" standardDeviationMicrosecondsPerInvocation="478"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="49" invocations="48" avgMicrosecondsPerInvocation="1031" maxMicrosecondsPerInvocation="10593" standardDeviationMicrosecondsPerInvocation="2213"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1700667525654" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1700667525663" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1700736224112" release="" codeSize="4832" numClasses="49"/>
+  </History>
+</BugCollection>
