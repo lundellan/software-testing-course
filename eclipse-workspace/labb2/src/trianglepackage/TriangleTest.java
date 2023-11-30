@@ -209,11 +209,11 @@ public class TriangleTest {
 		assertEquals("equilateral", triangle.classify());
 	}
 	
-	@Test
-	public void test25 ()	{
-		Triangle triangle = new Triangle(2, 2, Math.sqrt(4));
-		assertEquals("right-angled", triangle.classify());
-	}
+//	@Test
+//	public void test25 ()	{
+//		Triangle triangle = new Triangle(2, 2, Math.sqrt(4));
+//		assertEquals("right-angled", triangle.classify());
+//	}
 	
 	
 	

@@ -40,6 +40,7 @@
             <entry path="C:\Program Files\Java\jre1.6.0_03\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="C:\Users\jacob\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre" version="17.0.9"/>
     <libraryInfo home="/usr/lib/jvm/java-6-openjdk/jre" version="1.6.0_22">
         <bootpath>
             <entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar"/>
@@ -64,4 +65,6 @@
     </libraryInfo>
     <libraryInfo home="C:\Users\sepeh\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre" version="17.0.8.1"/>
     <libraryInfo home="C:\Users\sepeh\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047" version="17.0.8.1"/>
+    <libraryInfo home="C:\Users\jacob\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858" version="17.0.9"/>
+    <libraryInfo home="C:\Program Files\Eclipse Adoptium\jdk-21.0.1.12-hotspot" version="21.0.1"/>
 </libraryInfos>

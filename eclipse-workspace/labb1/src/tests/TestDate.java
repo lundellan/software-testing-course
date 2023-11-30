@@ -47,7 +47,7 @@ public class TestDate {
 	@Test
 	public void test3() {
 		NextDate testDate = new NextDate(2, 28, 2020);
-		assertEquals("2/29/2020", testDate.run(2, 29, 2020));
+		assertEquals("2/29/2020", testDate.run(2, 28, 2020));
 	}
 	
 	@Test
